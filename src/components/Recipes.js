@@ -36,4 +36,4 @@ const Recipes = (props)=> {
         </div>
     )}
 
-export default Recipes;
+export default Recipes

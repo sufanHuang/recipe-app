@@ -1,8 +1,9 @@
 import React from 'react';
 
 import { Link } from "react-router-dom";
+import config from '../settings/secrets'
 
-const API_KEY = "be9f82e5b88eba7f4e9563eb6a460c63";
+const {API_KEY} = config;
 
 class Recipe extends React.Component {
   state = {
@@ -14,7 +15,6 @@ class Recipe extends React.Component {
 
     const res = await req.json();
     this.setState({ activeRecipe: res.recipes[0] });
-    console.log(this.state.activeRecipe);
   }
   render() {
     const recipe = this.state.activeRecipe;
