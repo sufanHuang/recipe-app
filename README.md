@@ -6,7 +6,7 @@
 
 This is recipe search app created using React. 
 
-The API used for this app is 'http://food2fork.com/';
+The API used for this app is 'http://food2fork.com/'.
 
 **Set Up**
 1. git clone https://github.com/sufanHuang/recipe-app.git
