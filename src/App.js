@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import config from './settings/secrets'
+import config from './config'
 
 import Form from "./components/Form";
 import Recipes from "./components/Recipes";
