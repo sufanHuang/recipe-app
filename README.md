@@ -4,9 +4,7 @@
  </div>
 
 
-This is recipe search app created using React. 
-
-The API used for this app is 'http://food2fork.com/';
+This is a recipe-search-app built with React. The API used for this app is 'http://food2fork.com/'. The app lists the most popular recipes at the beginning. Users can find the first nine recipes when typing an ingredent. Users can find more details about a certain recipe when click on "View Recipe" button. 
 
 **Set Up**
 1. git clone https://github.com/sufanHuang/recipe-app.git
