@@ -1,16 +1,15 @@
+See the app [Here](https://sufan-recipe-app.herokuapp.com/)
 
  <div align="center">
      <img src="/public/screenshot.png" width="700px"</img> 
  </div>
 
+This app use react, bootstrap and api.
 
-This is a recipe-search-app built with React. The API used for this app is 'http://food2fork.com/'. The app lists the most popular recipes at the beginning. Users can find the first nine recipes when typing an ingredent. Users can find more details about a certain recipe when click on "View Recipe" button. 
+The structure of the app is three tiers: app.js, recipes.js and recipe.
 
-**Set Up**
-1. git clone https://github.com/sufanHuang/recipe-app.git
-2. cd recipe-app
-3. Add your own API KEY
-4. yarn # or npm install
-5. yarn start # or npm run start
+What I learned from making this app:
 
- 
+1. Retrieving data from an api
+2. Using ##Link to pass props
+
